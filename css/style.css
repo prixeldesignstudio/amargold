@@ -2947,10 +2947,12 @@
 	    float: left;
 	    width: 100%;
 	    font-size: 16px;
-	    margin-bottom: 0;
-	    line-height: 36px;
+	    margin-bottom: 24px;
+	    line-height: 30px;
 	    list-style: none
 	}
+
+	.grd-list ul li {}
 	
 	.grd-list ul li a span:before {
 	    color: #dadada;
@@ -12426,8 +12428,7 @@ border-radius: 5px;
 	
 	.teampage .dl_members {
 	    text-align: center;
-	    margin-bottom: 30px;
-	    padding-bottom: 30px;
+	   padding-bottom: 30px;
 	    border-bottom: 1px solid #eee;
 	}
 	
@@ -12487,6 +12488,14 @@ border-radius: 5px;
 	.careservice {
 	    padding: 45px 30px 35px 30px;
 	    background-image: url(../images/bg/single-bg.jpg);
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+
+	.ayubg {
+	    padding: 45px 30px 35px 30px;
+	    background-image: url(../images/bg/ayurveda-bg.jpg);
 	    background-position: center;
 	    background-repeat: no-repeat;
 	    background-size: cover;
@@ -13352,7 +13361,7 @@ padding: 10px 10px;
 			text-transform: uppercase;
 		}
 
-		.businessplan p{font-size: 18px;color: #141414; line-height: 18px;}
+		.businessplan p{font-size: 16px;color: #141414; line-height: 22px;}
 		.mt-20{margin-top: 20px !important;}
 
 		.business-table .table tr th{background:#669939; text-align: center; color: #fff;}
@@ -13394,3 +13403,5 @@ padding: 10px 10px;
 		.login input[type="text"], input[type="password"]{
 			background-color: #e5f0db;
 		}
+
+		.teambg {border-bottom: 1px dotted #000; margin-bottom: 50px;}
