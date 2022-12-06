@@ -13377,6 +13377,8 @@ padding: 10px 10px;
 		.business-table2 .table tr td:nth-child(3){text-align: left;}
 		.business-table2 .table-striped>tbody>tr:nth-of-type(odd){background-color: #f4ffeb;}
 
+		.businessplan .alert-success{padding: 10px 0; margin-bottom: 20px;}
+
 		.login .btn-style-two{
 			background: #6aa139;
 			color: #fff;
